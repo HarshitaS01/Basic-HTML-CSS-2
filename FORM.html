@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suggestion Page</title>
+    <style>
+        div.a {
+            border: 10px solid navy;
+            background-color: rgb(0, 2, 17);
+            color: gold;
+            padding: 10px;
+        }
+
+        body {
+            background-image: url('FLOWER.JPG');
+            background-size: cover;
+            margin: 0;
+        }
+
+        p {
+            margin-left: 37px;
+            background-color: pink;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: gold;
+            padding: 5px;
+        }
+
+        nav a:hover {
+            color: navy;
+        }
+
+        h1 {
+            color: gold;
+            background-color: black;
+            padding: 10px;
+        }
+
+        table {
+            margin-top: 20px;
+        }
+
+        td {
+            background-color: rgb(0, 87, 128);
+            color: yellow;
+            padding: 20px;
+        }
+
+        input[type="text"] {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        textarea {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        select {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        hr {
+            color: black;
+            thickness: 10px;
+        }
+
+        input[type="submit"] {
+            padding: 10px 20px;
+            background-color: black;
+            color: gold;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: gold;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <p><a href="HOME.html">HOME</a></p>
+
+    <div class="a">
+        <nav align="right">
+            <a href="HOME.html">HOME</a> |
+            <a href="FOOD.HTML">FOOD</a> |
+            <a href="GALLERY.HTML">GALLERY</a> |
+            <a href="TOURIST_DESTINATIONS.html">TOURIST DESTINATIONS</a> |
+            <a href="FORM.HTML">SUGGESTION FORM</a>
+        </nav>
+    </div>
+
+    <center>
+        <h1>PLEASE GIVE YOUR VALUABLE SUGGESTIONS ABOUT INDIA</h1>
+        <table>
+            <tr>
+                <td>
+                    <form>
+                        <br><br>
+                        ENTER YOUR NAME <input type="text" size="40" maxlength="20"><br><br>
+                        ENTER YOUR COUNTRY <input type="text" size="40" maxlength="30"><br><br>
+                        SELECT YOUR GENDER <br>
+                        <input type="radio" name="GENDER" value="Male"> MALE<br>
+                        <input type="radio" name="GENDER" value="Female"> FEMALE<br><br>
+                        SUGGEST ANY CHANGE YOU WOULD LIKE TO SEE IN INDIA <br>
+                        <textarea rows="10" cols="70"></textarea><br><br>
+                        WHICH ASPECT OF INDIA YOU LIKED THE MOST <br><br>
+                        <select name="ASPECTS" size="5" multiple>
+                            <option>ITS PEOPLE</option>
+                            <option>ITS FOOD</option>
+                            <option>ITS CULTURE</option>
+                            <option>ITS SCENERY</option>
+                            <option>ITS MONUMENTS</option>
+                            <option>YOGA</option>
+                        </select>
+                        <br><br>
+                        <input type="submit" value="SEND">
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </center>
+    <hr>
+</body>
+
+</html>
